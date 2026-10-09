@@ -2,6 +2,8 @@
 
 Turnaus ilmoitus ja ilmoittautumis aplikaation
 
+aloitus sivu:
+CSS tyylit:
 Turnauksen luonti: 
 Turnaukseen ilmoittuatuminen:
 Turnauksen poisto:
