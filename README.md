@@ -2,7 +2,7 @@
 
 Turnaus ilmoitus ja ilmoittautumis aplikaation
 
-aloitus sivu:
+aloitus sivu: Timo
 CSS tyylit:
 Turnauksen luonti: 
 Turnaukseen ilmoittuatuminen:
