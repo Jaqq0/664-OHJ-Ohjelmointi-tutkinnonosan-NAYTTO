@@ -7,7 +7,48 @@
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
     </head>
-    <body>
+    <body data-page="home">
+        <header class="site-header">
+            <a class="brand" href="index.html"><span class="brand-icon">🎮</span>Turnaushub</a>
+            <button class="menu-toggle" aria-label="Avaa valikko" aria-expanded="false">☰</button>
+            <nav class="main-nav">
+                <a class="active" href="index.html">Etusivu</a>
+                <a href="turnaukset.html">Turnaukset</a>
+                <a href="luo-turnaus.html">Luo turnaus</a>
+            </nav>
+        </header>
 
+        <main>
+            <section class="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow">PELAA, KILPAILE, VOITA.</p>
+                    <h1>Löydä seuraava<br><span>peliturnauksesi</span></h1>
+                    <p class="hero-text">TurnausHub kokoaa pelaajat ja turnausjärjestäjät yhteen. Selaa tulevia turnauksia tai julkaise oma tapahtumasi.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="turnaukset.html">Selaa turnauksia</a>
+                        <a class="button button-secondary" href="luo-turnaus.html">+ Luo turnaus</a>
+                    </div>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <!-- tähän joku teemaan sopiva kuva tai grafiikka -->
+                </div>                    
+            </section>
+
+            <section class="section">
+                <div class="section-heading">
+                    <div><p class="eyebrow">KATSO MITÄ ON TULOSSA</p><h2>Tulevat turnaukset</h2></div>
+                    <a class="text-link" href="turnaukset.html">Kaikki turnaukset</a>
+                </div>
+                <div id="featured-tournaments" class="tournament-grid"></div>
+                <p id="home-empty" class="empty-message hidden">Turnauksia ei vielä ole. Ole ensimmäinen ja <a href="luo-turnaus.html">luo turnaus</a></p>
+            </section>
+
+            <section class="callout">
+                <div><p class="eyebrow">JÄRJESTÄJILLE</p><h2>Onko turnaus suunnitteilla?</h2><p>Luo turnaukselle ilmoitus ja anna muiden pelaajien liittyä mukaan.</p></div>
+                <a class="button button-primary" href="luo-turnaus.html">Julkaise turnaus</a>
+            </section>
+        </main>
+    
+        <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-icon">🎮</span> TurnausHub</a><span>Pelaa. Kilpaile. Voita.</span></footer>
     </body>
 </html>
